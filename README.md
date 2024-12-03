@@ -2,12 +2,12 @@
 
 This repository contains Helm charts and configurations for practicing Kubernetes deployments with Argo CD and Helm.
 
-### Purpose
+#### Purpose
 - Learn and experiment with Argo CD for continuous delivery.
 - Create and manage Kubernetes applications using Helm charts.
 - Test various deployment scenarios and best practices.
 
-### Structure
+#### Structure
 - /charts: Contains custom Helm charts for Kubernetes deployments.
 - /manifests: Kubernetes YAML manifests for experimentation.
 - /argo: Argo CD configuration files, including Application definitions.
