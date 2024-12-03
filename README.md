@@ -3,24 +3,24 @@
 This repository contains Helm charts and configurations for practicing Kubernetes deployments with Argo CD and Helm.
 
 ### Purpose
-• Learn and experiment with Argo CD for continuous delivery.
-• Create and manage Kubernetes applications using Helm charts.
-• Test various deployment scenarios and best practices.
+- Learn and experiment with Argo CD for continuous delivery.
+- Create and manage Kubernetes applications using Helm charts.
+- Test various deployment scenarios and best practices.
 
 ### Structure
-• /charts: Contains custom Helm charts for Kubernetes deployments.
-• /manifests: Kubernetes YAML manifests for experimentation.
-• /argo: Argo CD configuration files, including Application definitions.
+- /charts: Contains custom Helm charts for Kubernetes deployments.
+- /manifests: Kubernetes YAML manifests for experimentation.
+- /argo: Argo CD configuration files, including Application definitions.
 
 #### Prerequisites
-• Helm installed on your local machine.
-• Argo CD set up on a Kubernetes cluster.
+- Helm installed on your local machine.
+- Argo CD set up on a Kubernetes cluster.
 
 ## Getting Started
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+git clone https://github.com/dshmmd/helmargo-lab.git
+cd helmargo-lab
 ```
 
 2. Add this repository to Argo CD:
@@ -37,7 +37,6 @@ helm install my-app ./charts/my-chart
 ```bash
 argocd app sync my-app
 ```
-
 
 #### Contributing
 Feel free to open issues or submit pull requests to improve the repository!
